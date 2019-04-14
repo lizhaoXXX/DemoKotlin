@@ -1,4 +1,4 @@
-package popup.demo.com.org.demokotlin
+﻿package popup.demo.com.org.demokotlin
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -13,12 +13,7 @@ class KotlinActivity : AppCompatActivity() {
         println("sum: ${sum03(10,"ABC")}")
     }
 
-    /**
-     * 返回的值的函数
-     */
-    fun sum(a: Int, b: Int): Int {
-        return a + b;
-    }
+
 
     fun sum02(a: Int, b: Int) = a * b;
 
