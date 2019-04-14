@@ -18,4 +18,6 @@ class KotlinActivity : AppCompatActivity() {
     fun sum02(a: Int, b: Int) = a * b;
 
     fun sum03(a: Int, b: String) = b + a;
+
+fun sum04(a:int):Int
 }
